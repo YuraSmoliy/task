@@ -1,0 +1,46 @@
+.conteiner{
+	display:flex;
+	width:95%;
+	margin-top:20px;
+	margin-left:26px;
+	padding-top:10px;
+	padding-bottom:0px;
+	font-size:16pt;
+	font-family: OpenSans Semibold;
+	border-bottom:1px solid #E6E6E6;
+}
+
+.item{
+	display:flex;
+	width:79%;
+	word-wrap:break-word;
+	text-wrap: unrestricted;
+}
+
+.count{
+	display:block;
+	min-width: 26px;
+	height:20px;
+	text-align:center;
+	height:18px;
+	margin-top:5px;
+	margin-left:30px;
+	border-radius:6px;
+	background-color:#27CCC0;
+	font-size:13pt;
+	font-family: OpenSans Bold;
+}
+
+.itemButton{
+	display:block;
+	width:21%;
+	height:35px;
+	background-color:white;
+	border:1px solid red;
+	color:red;
+	border-radius:3px;
+	margin-bottom:7px;
+}
+.invisible{
+	border-left:3px solid red;
+}

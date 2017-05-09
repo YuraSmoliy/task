@@ -1,0 +1,7 @@
+<div class="conteiner" [ngClass]="{invisible: isActive}">
+	<div class="item"  (click)="onSelect(item)">
+		{{item.name}} 
+		<div class="count">{{item.coments.length}}</div> 
+	</div>
+	<button class="itemButton" (click)="onDelete(item)">Delete</button>
+</div>

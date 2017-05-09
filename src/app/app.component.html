@@ -1,0 +1,10 @@
+<div class="main">
+	<div class="sidebar">
+		<h1 class="title">Main</h1>
+		<div class="overview">Overview</div>
+	</div>
+	<div class="active">	
+		<items class="part" [items]="items" [selectedItemId]="selectedId"  (create)="onCreateItem($event)" (select)="onSelectItem($event)" (delete)="onDeleteItem($event)"></items>
+		<comments class="part left" *ngIf="selectedItem" [comments]="selectedItem.coments"  (add)="onAddComent($event)"></comments>
+	</div>
+</div>
